@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: fira;
+    src: url('/fira.ttf');
+}
+@theme{
+    --font-fira : fira, 'sans-serif'
+}
