@@ -7,7 +7,7 @@ const Button = ({text, func}) => {
             <motion.button
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className="relative px-10 py-2 bg-black rounded-lg overflow-hidden cursor-pointer border-2 border-white shadow-lg"
+        className="relative px-10 py-2 bg-black rounded-lg overflow-hidden cursor-pointer text-black border-2 border-white shadow-lg"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >

@@ -21,17 +21,17 @@ const Card = ({ data, btn = false }) => {
     }
     return (
 
-        <motion.div initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, type: 'spring' }} className='text-[#F8F4E3] p-6 border rounded-lg font-fira'>
-            <div className='h-[400px]'>
+        <motion.div initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, type: 'spring' }} whileHover={{scale:1.03}} className='text-[#F8F4E3] p-6 border rounded-lg font-fira'>
+            <div className='h-[300px]'>
                 <img className='w-full h-full object-cover' src={data.image} alt={data.name} />
             </div>
 
             <div className='flex flex-col gap-y-3'>
                 <div className='py-3'>
-                    <p className='text-2xl sm:text-3xl font-semibold'>{data.name}</p>
+                    <p className='text-xl sm:text-2xl font-semibold'>{data.name}</p>
 
                 </div>
-                <div className='flex items-start justify-between flex-col text-xl  gap-y-2'>
+                <div className='flex items-start justify-between flex-col text-base sm:text-xl  gap-y-2'>
                     <p><span className='font-semibold'>Speciality : </span> {`${data.speciality}`}</p>
                     <p><span className='font-semibold'>Designation : </span>{data.designation}</p>
                 </div>
