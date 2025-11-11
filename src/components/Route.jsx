@@ -6,6 +6,7 @@ import Error from "./Error";
 import { createBrowserRouter } from "react-router";
 import Loader from "./Loader";
 import DoctorInfo from "./DoctorInfo";
+import Appointments from "./Appointments";
 
 
 const route = createBrowserRouter([
@@ -26,7 +27,11 @@ const route = createBrowserRouter([
             },{
                 path:'doctors/:doctorName',
                 element: <DoctorInfo/>
+            },{
+                path:'appointments',
+                element:<Appointments/>
             }
+
         ]
     },
     {

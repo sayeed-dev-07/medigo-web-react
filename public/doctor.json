@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/P3tXMgH/Doctor-M-6.jpg",
+    "image": "https://i.pinimg.com/736x/95/02/92/950292506144a39c041e86595c0e657e.jpg",
     "name": "Dr. Arjun Mehta",
     "education": "MBBS, MD (Internal Medicine)",
     "speciality": "Cardiologist",
@@ -21,7 +21,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/wFc0XChZ/Doctor-1.jpg",
+    "image": "https://i.pinimg.com/736x/86/f0/4f/86f04f22867e5fd9d627bc01e997dc21.jpg",
     "name": "Dr. Priya Sharma",
     "education": "MBBS, MS (Gynecology)",
     "speciality": "Gynecologist",
@@ -34,7 +34,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/BHNXwkVS/Doctor-M-5.jpg",
+    "image": "https://i.pinimg.com/736x/a2/d9/15/a2d9154701abc72b3c86cfb9503972b9.jpg",
     "name": "Dr. Sameer Kapoor",
     "education": "MBBS, MS (Orthopedics)",
     "speciality": "Orthopedic Surgeon",
@@ -47,7 +47,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/h1rDfKsF/Doctor-3.jpg",
+    "image": "https://i.pinimg.com/736x/bb/21/96/bb219636f8223d0e393c53332c75be4b.jpg",
     "name": "Dr. Neha Verma",
     "education": "MBBS, DNB (Dermatology)",
     "speciality": "Dermatologist",
@@ -60,7 +60,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/fGp65FsK/Doctor-M-4.jpg",
+    "image": "https://i.pinimg.com/736x/05/d8/ce/05d8cef54631f6ec7ff562e0cdf9e8e2.jpg",
     "name": "Dr. Raghav Joshi",
     "education": "MBBS, DM (Neurology)",
     "speciality": "Neurologist",
@@ -73,7 +73,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/RGgKb3QH/Doctor-4.jpg",
+    "image": "https://i.pinimg.com/736x/c6/3f/53/c63f53dd6dadc52899e663c79e5aa63a.jpg",
     "name": "Dr. Ananya Iyer",
     "education": "MBBS, MS (ENT)",
     "speciality": "ENT Specialist",
@@ -86,7 +86,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/RpzYmDyw/Doctor-M-3.webp",
+    "image": "https://i.pinimg.com/736x/80/ea/bc/80eabc797a376c55f4d80d0cb63a65c0.jpg",
     "name": "Dr. Mohan Reddy",
     "education": "MBBS, MCh (Urology)",
     "speciality": "Urologist",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/67FGY2Bq/Doctor-5.jpg",
+    "image": "https://i.pinimg.com/736x/1c/ef/60/1cef60edfc0741b4f28920a4b3a1e807.jpg",
     "name": "Dr. Sanya Kulkarni",
     "education": "MBBS, MD (Pediatrics)",
     "speciality": "Pediatrician",
@@ -112,7 +112,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/nNMNs5Gw/Doctor-M-2.jpg",
+    "image": "https://i.pinimg.com/736x/1f/7c/97/1f7c97837cfde9410a11a79d7bfafc7b.jpg",
     "name": "Dr. Vishal Rao",
     "education": "MBBS, MS (General Surgery)",
     "speciality": "General Surgeon",
@@ -125,7 +125,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/bMhNLMzk/Doctor-6.jpg",
+    "image": "https://i.pinimg.com/736x/28/8f/0b/288f0b7d82a991332959b4d6b9d0f76c.jpg",
     "name": "Dr. Kavita Bansal",
     "education": "MBBS, DGO",
     "speciality": "Obstetrician",
@@ -138,7 +138,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.ibb.co/5XpSVDqt/Doctor-M-1.jpg",
+    "image": "https://i.pinimg.com/736x/da/6a/27/da6a27fc36bc3fb6d836a0853d65e072.jpg",
     "name": "Dr. Nikhil Sen",
     "education": "MBBS, DM (Endocrinology)",
     "speciality": "Endocrinologist",
@@ -151,7 +151,7 @@
   },
   {
     "id": 12,
-    "image": "https://i.pinimg.com/736x/b4/84/2c/b4842c7514ec18f58deaadab6b33d9ec.jpg",
+    "image": "https://i.pinimg.com/736x/3e/9d/9e/3e9d9e4f899bb9e73a18355b2a853715.jpg",
     "name": "Dr. Ritu Deshmukh",
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatrist",
@@ -164,7 +164,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.pinimg.com/736x/a7/51/8a/a7518a0437ced11277a8b67d1eb1e723.jpg",
+    "image": "https://i.pinimg.com/736x/33/dc/3e/33dc3ead9c335cf8923fd9138c90e0c9.jpg",
     "name": "Dr. Meera Nair",
     "education": "MBBS, MD (Ophthalmology)",
     "speciality": "Eye Specialist",
@@ -177,7 +177,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.pinimg.com/736x/4c/a6/e2/4ca6e2625541c9901c9d3dff74fac12e.jpg",
+    "image": "https://i.pinimg.com/736x/0f/88/9a/0f889a1377bbeda3d8887f9a5fa4e271.jpg",
     "name": "Dr. Harini Venkataraman",
     "education": "MBBS, DM (Gastroenterology)",
     "speciality": "Gastroenterologist",
@@ -190,7 +190,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.pinimg.com/736x/50/85/7b/50857b3983cc20c531ada622720fde73.jpg",
+    "image": "https://i.pinimg.com/736x/78/f4/68/78f4680b50d82e2dc546debc928d1103.jpg",
     "name": "Dr. Shalini Pandey",
     "education": "BDS, MDS (Orthodontics)",
     "speciality": "Dentist",
@@ -203,7 +203,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.pinimg.com/736x/c1/3c/63/c13c639971899556e4c7feafb65b502f.jpg",
+    "image": "https://i.pinimg.com/736x/08/0f/75/080f755ea70cbc036eb7dce8ccf25d3e.jpg",
     "name": "Dr. Farhana Ahmed",
     "education": "MBBS, MD (Pulmonology)",
     "speciality": "Pulmonologist",
@@ -216,7 +216,7 @@
   },
   {
     "id": 17,
-    "image": "https://i.pinimg.com/736x/74/60/3e/74603e871ba0511a0ce3afcefaf27806.jpg",
+    "image": "https://i.pinimg.com/736x/f5/84/80/f584801bbe7f6f06f7016508a7ab0dc3.jpg",
     "name": "Dr. Swati Ghosh",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Eye Surgeon",
@@ -229,7 +229,7 @@
   },
   {
     "id": 18,
-    "image": "https://i.pinimg.com/1200x/c7/7c/ff/c77cff44687ff6b777bb0e8a97fb7b6b.jpg",
+    "image": "https://i.pinimg.com/736x/df/cc/f8/dfccf8e2dd86ab0432d0735b01e2ecff.jpg",
     "name": "Dr. Roshni Kulkarni",
     "education": "MBBS, MD (Oncology)",
     "speciality": "Oncologist",
@@ -242,7 +242,7 @@
   },
   {
     "id": 19,
-    "image": "https://i.pinimg.com/736x/67/b8/7b/67b87b3ab9e3122743719684d88d62eb.jpg",
+    "image": "https://i.pinimg.com/736x/e8/d5/4a/e8d54abc54420ea9a8830b0a35604d57.jpg",
     "name": "Dr. Aisha Rahman",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Eye Specialist",
@@ -255,7 +255,7 @@
   },
   {
     "id": 20,
-    "image": "https://i.pinimg.com/1200x/58/ba/85/58ba8517ff98706d28eb58ea7d481040.jpg",
+    "image": "https://i.pinimg.com/736x/c4/c1/ea/c4c1ea0e9528a4d91c7b24d652606c5b.jpg",
     "name": "Dr. Karishma Malhotra",
     "education": "MBBS, MS (Neurosurgery)",
     "speciality": "Neurosurgeon",
@@ -320,7 +320,7 @@
   },
   {
     "id": 25,
-    "image": "https://i.pinimg.com/736x/c5/2e/d4/c52ed41752e5a19f96c1be07d9a52099.jpg",
+    "image": "https://i.pinimg.com/1200x/a2/6d/c5/a26dc5f2fb61c78051a9e5d1389871c9.jpg",
     "name": "Dr. Fatima Noor",
     "education": "MBBS, MS (Ophthalmology)",
     "speciality": "Cornea Specialist",
@@ -333,7 +333,7 @@
   },
   {
     "id": 26,
-    "image": "https://i.pinimg.com/736x/a0/71/c6/a071c6bc892ca177842309376c591823.jpg",
+    "image": "https://i.pinimg.com/736x/3e/9d/9e/3e9d9e4f899bb9e73a18355b2a853715.jpg",
     "name": "Dr. Jaya Patel",
     "education": "MBBS, MD (Anesthesiology)",
     "speciality": "Anesthesiologist",
@@ -359,7 +359,7 @@
   },
   {
     "id": 28,
-    "image": "https://i.pinimg.com/736x/ad/80/55/ad8055b13008318ac2402c5af13cb3d1.jpg",
+    "image": "https://i.pinimg.com/736x/ae/11/af/ae11af76d3a1c81c1ffd359c2613fc6f.jpg",
     "name": "Dr. Kabira Khan",
     "education": "MBBS, MD (Emergency Medicine)",
     "speciality": "Emergency Physician",
