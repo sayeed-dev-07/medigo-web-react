@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router';
-
+import { motion } from 'motion/react';
 const Navbar = () => {
     return (
         <div className=' px-1 md:px-[10%] py-6 text-xl sm:text-2xl font-fira flex items-center justify-center sm:justify-between w-full bg-[#171616ce]'>
-            <div className='hidden sm:block'>
-                <NavLink to='/' className=' font-semibold text-4xl'>MEDIGO</NavLink>
-            </div>
-            <div className='flex items-center justify-center gap-x-6'>
+            <motion.div initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} className='hidden sm:block'>
+                <NavLink  to='/' className=' font-semibold text-4xl'>MEDIGO</NavLink>
+            </motion.div>
+            <motion.div initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}}  transition={{ duration: 0.5,delay:0.8, type: 'spring' }} className='flex items-center justify-center gap-x-6'>
                 <NavLink to='/' className={({ isActive }) =>
                     isActive ? 'border-b-2 border-white' : 'border-b-2 border-transparent'
                 }
@@ -20,7 +20,7 @@ const Navbar = () => {
                     isActive ? 'border-b-2 border-white' : 'border-b-2 border-transparent'
                 }
                     to='/appointments'>Appointments</NavLink>
-            </div>
+            </motion.div>
         </div>
     );
 };

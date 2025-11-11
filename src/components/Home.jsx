@@ -1,13 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from './Layout';
 import Card from './Card';
+import { Toaster } from 'react-hot-toast';
 
 
 
 const Home = () => {
     const { data } = useContext(DataContext)
+    const [dataArr, setDataArr] = useState([])
     
-   function randomArr(){
+   useEffect(()=>{
+        function randomArr(){
     let numArr = []
     while(numArr.length < 6){
         let index = Math.floor(Math.random() * data.length)
@@ -23,7 +26,10 @@ const Home = () => {
     arr.forEach(item=> newArr.push(data[item]))
     return newArr;
    }
-   const dataArr = randomArr()
+   const dataArr2 = randomArr()
+   setDataArr(dataArr2)
+   },[data])
+   
     return (
         <div className='sm:px-[10%] font-fira sm:py-[3%] py-0'>
             <div className='flex items-center justify-center min-h-screen md:min-h-auto py-0 sm:py-[20%]'>
