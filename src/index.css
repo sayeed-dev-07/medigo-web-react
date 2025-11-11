@@ -7,3 +7,6 @@
 @theme{
     --font-fira : fira, 'sans-serif'
 }
+html{
+    scroll-behavior: smooth;
+}

@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { DataContext } from './Layout';
 import Card from './Card';
 import { Toaster } from 'react-hot-toast';
-
+import { motion } from 'motion/react';
 
 
 const Home = () => {
@@ -33,9 +33,11 @@ const Home = () => {
     return (
         <div className='sm:px-[10%] font-fira sm:py-[3%] py-0'>
             <div className='flex items-center justify-center min-h-screen md:min-h-auto py-0 sm:py-[20%]'>
-                <p className=' text-3xl md:text-5xl text-center'>
+                <motion.p initial={{ y: 100, opacity: 0, filter:'blur(20px)' }}
+                    animate={{ y: 0, opacity: 1 , filter:'blur(0px)'}}
+                    transition={{ duration: 0.5, delay: 0.2, type: 'spring' }} className=' text-3xl md:text-5xl text-center'>
                     <span className='italic font-semibold text-[#da2c38]'>MediGo</span> is a smart doctor-finding platform that helps users book trusted healthcare professionals easily and quickly.
-                </p>
+                </motion.p>
             </div>
             <div>
                 <p className='text-3xl sm:text-5xl font-semibold'>Our Popular Doctors : </p>

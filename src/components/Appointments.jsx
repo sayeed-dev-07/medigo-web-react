@@ -42,7 +42,7 @@ const Appointments = () => {
           </motion.div>
         ) : (
           <div className="flex items-center justify-center py-[15%]">
-            <motion.div initial={{y:30, opacity:0, filter:'blur(10px)'}} whileInView={{y:0, opacity:1, filter:'blur(0px)'}} transition={{duration:0.5}} className="text-4xl text-white">
+            <motion.div initial={{y:30, opacity:0, filter:'blur(10px)'}} animate={{y:0, opacity:1, filter:'blur(0px)'}} transition={{duration:0.5}} className="text-4xl text-white">
               No Doctors are Appointed
             </motion.div>
           </div>

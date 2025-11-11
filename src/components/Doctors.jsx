@@ -28,10 +28,10 @@ const Doctors = () => {
         <div className='sm:px-[10%] font-fira sm:py-[3%] py-[8%]'>
             <div className='flex flex-col items-center justify-center gap-y-2'>
                 <div >
-                    <motion.p initial={{y:-30, opacity:0, filter:'blur(20px)'}} whileInView={{y:0, opacity:1, filter:'blur(0px)'}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} className='text-4xl '>Search Your Doctor</motion.p>
+                    <motion.p initial={{y:-30, opacity:0, filter:'blur(20px)'}} animate={{y:0, opacity:1, filter:'blur(0px)'}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} className='text-4xl '>Search Your Doctor</motion.p>
                 </div>
                 <form onSubmit={handleSubmit} className='flex items-center justify-center gap-x-3'>
-                    <motion.input initial={{x:-100, opacity:0}} whileInView={{x:0, opacity:1}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} onChange={handleChange} className='bg-white outline-none py-1.5 px-1 text-black' name='text' type="text" />
+                    <motion.input initial={{x:-100, opacity:0}} animate={{x:0, opacity:1}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} onChange={handleChange} className='bg-white outline-none py-1.5 px-1 text-black' name='text' type="text" />
                     <motion.button initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}}  transition={{ duration: 0.5,delay:0.3, type: 'spring' }} type='submit' className='cursor-pointer px-6 py-2 bg-black'>Search</motion.button>
                 </form>
             </div>
