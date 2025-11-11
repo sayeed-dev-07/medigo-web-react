@@ -74,9 +74,9 @@ const DoctorInfo = () => {
             </div>
             <Link to="/doctors">
                 <motion.div initial={{ right: 0, bottom:'10%', opacity: 0 }}
-                    whileInView={{ right: '10%', opacity: 1 }}
+                    whileInView={{ right: '8%', opacity: 1 }}
                     transition={{ duration: 0.3, delay: 0.2, type: 'spring' }}
-                    className="p-3 absolute  bg-black text-white rounded-full cursor-pointer shadow-lg hover:scale-110 transition-transform"
+                    className="p-3 fixed bg-black text-white rounded-full cursor-pointer shadow-lg hover:scale-110 transition-transform"
                 >
                     <ArrowLeft/>
                 </motion.div>
