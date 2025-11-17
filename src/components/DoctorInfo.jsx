@@ -26,8 +26,8 @@ const DoctorInfo = () => {
         <div className='flex min-h-[90vh] font-fira  relative py-[5%] justify-center  items-center overflow-hidden'>
 
             <div className='flex items-center lg:max-h-[60vh] lg:flex-row flex-col gap-y-9 justify-center gap-x-12'>
-                <motion.div initial={{ x: -200, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.3, type: 'spring' }} className=' lg:w-[40%] xl:w-[30%] w-full sm:w-[60%] lg:h-auto'>
-                    <img className='h-full w-full object-cover' src={data.image} alt="" />
+                <motion.div  className=' lg:w-[40%] xl:w-[30%] w-full sm:w-[60%] lg:h-auto'>
+                    <motion.img layoutId={`${data.id}-name`} className='h-full w-full object-cover' src={data.image} alt="" />
                 </motion.div>
                 <motion.div initial={{ x: 200, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.6, type: 'spring' }} className='flex-1 flex items-start flex-col gap-y-3 sm:text-2xl text-xl'>
                     <div>

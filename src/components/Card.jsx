@@ -14,7 +14,7 @@ const Card = ({ data, btn = false }) => {
         let dataFound = hired.find(item => item.id == data.id)
         if (!dataFound) {
             setHired([...hired, data])
-            toast.success(`Successfully hired ${data.name} ✅, Check Appointed tab to see appointed doctors`)
+            toast(`Successfully hired ${data.name} ✅, Check Appointed tab to see appointed doctors`)
         } else {
             toast.error(`${data.name} is Already Appointed`)
         }
@@ -23,7 +23,7 @@ const Card = ({ data, btn = false }) => {
 
         <motion.div initial={{ y: -20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.5, type: 'spring' }} whileHover={{scale:1.03}} className='text-[#F8F4E3] p-6 border rounded-lg font-fira'>
             <div className='h-[300px]'>
-                <img className='w-full h-full object-cover' src={data.image} alt={data.name} />
+                <motion.img layoutId={`${data.id}-name`} className='w-full h-full object-cover' src={data.image} alt={data.name} />
             </div>
 
             <div className='flex flex-col gap-y-3'>
